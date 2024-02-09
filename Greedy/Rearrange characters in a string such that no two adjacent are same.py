@@ -40,8 +40,7 @@ def rearrangeString(s):
 
 s="bbbaaccdde"
 # s="bbbaa"
-res=rearrangeString(s)
-if res=="":
+if (res := rearrangeString(s))=="":
     print("Not valid string possible")
 else:
     print(res)
